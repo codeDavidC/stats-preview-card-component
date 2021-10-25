@@ -75,7 +75,7 @@ p {
 
 
 .main-div {
-    background: url(images/image-header-mobile.jpg) no-repeat top center, var(--cardBG);
+    background: url(./images/image-header-mobile.jpg) no-repeat top center, var(--cardBG);
     background-size: 100%;
     width: 330px;
     border-radius: 20px;
@@ -127,7 +127,7 @@ p {
 @media screen and (min-width: 1024px) {
     .main-div {
         width: 1250px;
-        background: url(images/image-header-desktop.jpg) no-repeat right center, var(--cardBG);
+        background: url(./images/image-header-desktop.jpg) no-repeat right center, var(--cardBG);
         background-size: 50%;
         position: relative;
     }
