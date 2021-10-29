@@ -80,6 +80,7 @@ p {
     width: 330px;
     border-radius: 20px;
     position: relative;
+    margin: 10px;
 }
 
 .main-div::before {
@@ -87,13 +88,13 @@ p {
     display: block;
     width: 100%;
     height: 242px;
-
     background: var(--violetOverlay);
     border-radius: 20px 20px 0 0;
     position: absolute;
 }
 
 .wrapper-container {
+
     padding-top: 250px;
     padding-left: 33px;
     padding-right: 33px;
@@ -124,6 +125,8 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
+
+
     .main-div {
         width: 1250px;
         background: url(images/image-header-desktop.jpg) no-repeat right center, var(--cardBG);
